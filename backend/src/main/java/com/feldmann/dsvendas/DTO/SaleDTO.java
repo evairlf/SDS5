@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.time.LocalDate;
 
 import com.feldmann.dsvendas.entities.Sale;
-import com.feldmann.dsvendas.entities.Seller;
+
 
 public class SaleDTO implements Serializable{
     
