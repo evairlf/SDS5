@@ -22,14 +22,15 @@ const Dashboard = () => {
                         <h5 className="text-center text-secondary">Todas Vendas</h5>
                         <DonutChart />
                     </div>
-
+                    
                 </div>
-
-            </div>
-            <div className="py-3">
+                <div className="py-3">
                 <h2 className="text-primary">Todas As Vendas</h2>
+                <DataTable />
             </div>
-            <DataTable />
+           
+            
+            </div>
             <Footer />
         </>
     );
